@@ -1,0 +1,279 @@
+body{
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-bold';
+} 
+p{
+    font-family: "Ubuntu";
+    color: #8f8f8f;
+}
+.big-heading{
+    font-family: 'Montserrat-Black';
+    line-height: 1.5;
+    font-size: 5.5rem;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+
+}
+
+/* Title Section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+.title-image{
+    width: 200px;
+    height: 400px;
+    transform: rotate(22deg);
+    position: absolute;
+    top: 360px;
+    right:25%;
+    margin-left: 150px;
+}
+
+/* Navbar */
+
+.navbar-brand{
+    margin-left: 10px;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold; 
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item-list{
+    margin: auto 0 auto 25px;
+    width: 404.700px;
+}
+.navbar-nav-list{
+    position: absolute;
+    left: 600px;
+}
+.nav-item:hover{
+    background-color: #f21f3f;
+    border: 1px solid black;
+    height: min-content;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-item{
+    font-size: 20px;
+    color: #fff;
+}
+.nav-link a{
+    font-family: "Montserrat";
+    font-size: 1.1rem;
+    color: white;
+}
+.search{
+    margin: auto 0 auto 0;
+    position: absolute;
+    left: 250px;
+    width: 300px;
+}
+.search-button{
+    float: left;
+    width: fit-content;
+    position: absolute;
+    left: 260px;
+}
+.form-control{
+    width: 250px;
+    margin-left: 0;
+    background-color:white;
+}
+.form-control:hover{    
+    color: black;
+    border: 4px solid crimson;
+}
+.navbar-toggler{
+    background-color: black;
+}
+.navbar-toggler:hover{
+    background-color:#424649 ;
+}
+
+/* Download buttons */
+
+.download-button{
+    position: relative;
+    left: 170px;
+}
+.click-here-btn{
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+/* Features Section*/
+#Features{
+    
+    padding: 50px 15%;
+    
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    padding: 4.5%;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Quotes */
+
+#testimonials {
+    background-color: #ef8172;
+}
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+.testimonials-image{
+    width: 10%;
+    border-radius:100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    padding-top: 4%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 15px 50px;
+}
+.infosys{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+.wipro{
+    padding-top: 10px;
+}
+.carousel-item{ 
+    padding-top:80px;
+}
+.carousel-controls{
+    width: 100%;
+    height: 300px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+/* Pricing Section*/
+
+#Pricing{
+    padding: 50px 100px 50px 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+.card-items{
+    padding: 3% 2%;
+}
+
+/* Download */
+
+.cta-heading{
+    font-family: "Montserrant-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.card-body > button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer Section*/
+
+.social-media{
+    color: black;
+    font-size: 1.5rem;
+    margin: 20px 10px;
+}
+
+.mail{
+    margin: 0;
+    
+}
+
+/* Break points */
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform:rotate(0) ;
+        margin-left: 10px;
+    }
+    .search{
+        position: static;
+    }
+    .form-control{
+        width: 200px;
+        margin-left: 0;
+        background-color:lightgray;
+    }
+    .search-button{
+        float: left;
+        width: fit-content;
+        position: absolute;
+        left: 210px;
+    }
+    h1{
+        font-family: 'Neucha', cursive;
+        font-size: 3.5rem;
+        line-height: 1.5;
+    } 
+    #Features{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .carousel-inner h2{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 1.6rem;
+        line-height: 1.2;     
+    }
+    em{
+        font-family: 'Montserrat-bold';
+        letter-spacing: 2px;
+    }
+}

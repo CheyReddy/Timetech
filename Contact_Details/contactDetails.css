@@ -1,0 +1,36 @@
+body{
+    padding: 3% 30% 7%;
+    background-color: rgb(126, 125, 119);
+}
+.principal{
+    border-radius: 50%;
+}
+.all-btn{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    color: rgb(219, 62, 93);
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+.contacts{
+    background-color: rgb(236, 234, 226);
+    padding: 20px;
+    border: 2px solid black;
+}
+.buttons{
+    position: relative;
+    left: 200px;
+}
+.contacts:hover{
+    border: 5px solid firebrick;
+}
+input:hover,textarea:hover,.all-btn:hover{
+    border: 3px solid red;
+}

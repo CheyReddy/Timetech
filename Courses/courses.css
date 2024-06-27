@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(244, 240, 233);
+}
+.container-fluid{
+    padding: 1% 7%;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin: 0;
+    color: #ff4c68;
+}
+p{
+    font-size: medium;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+}
+.all-btn{
+    margin: 10px;
+}
+table{
+    margin: auto 5%;
+    border: 1px solid black;
+    padding: 20px;
+}
+tr{
+   background-color: gainsboro;
+   
+}
+th{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 170px;
+    padding: 10px;
+    text-decoration: underline;
+    background-color: rgb(233, 96, 96);
+}
+td{
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+a:nth-child(odd){
+    text-decoration: none;
+    color: crimson;
+}
+

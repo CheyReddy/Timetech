@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetech</title>
+    <link rel="icon" href="/images/favicon-timetech.ico">
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body class="container-fluid">
+    <h1>Timetech</h1>
+    <p>Signup your Account</p>
+    <button class="back-btn"><a href="/index.html">Back to mainpage</a></button>
+    <section class="details">
+        <form autocomplete="on">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <table class="Table">
+                    <label class="headings" for=""><strong>Login Credentials</strong></label><br>
+                    <tr>
+                        <td><label for="fname">First Name:</label></td>
+                        <td><input type="text" name="fname" placeholder="First Name" required></td>
+                        <td><label for="lname">Last Name:</label></td>
+                        <td><input type="text" name="lname" placeholder="Last Name" required><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="DOB">Date of Birth:</label></td>
+                        <td><input type="date" name="DOB" required></td>
+                        <td><label for="mobileno">Mobile No:</label></td>
+                        <td><input type="number" name="mobileno" placeholder="0123-456-789" required><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" placeholder="someone@gmail.com" required></td>
+                        <td><label for="address">Address:</label></td>
+                        <td><input type="text" name="address" required><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password: </label></td>
+                        <td><input type="password" name="password" required></td>
+                        <td><label for="confirmPassword">Confirm Password:  </label></td>
+                        <td><input type="password" name="confirmPassword" required><br></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">Gender: </label>
+                            <input type="radio" name="gender" id="Male" value="m">
+                            <label for="Male">Male</label>
+                            <input type="radio" name="gender" id="Female" value="f">
+                            <label for="Female">Female</label><br>
+                        </td>
+                    </tr><br>
+                </table>
+                <button class="btn" type="button" onclick="saved()">Save Details</button>
+            </fieldset><br>
+        </section>
+    
+            <fieldset>
+                <legend>Education Details</legend>
+                <table class="Table">
+                    <tr>
+                        <label for="edu.details"><strong>Highest Degree</strong></label>
+                        <tr>
+                            <td><label for="edu.details">Name of the College:   </label></td>
+                            <td><input type="text" name="clgName" id="edu.details" required></td>
+                            <td><label for="edu.details">Course Name:   </label></td>
+                            <td><input type="text" name="courseName" id="edu.details" required></td>
+                            <td><label for="edu.details">Specialization:    </label></td>
+                            <td><input type="text" name="Spec" id="edu.details" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="edu.details">Grading System:    </label></td>
+                            <td><input type="tel" name="CGPA" id="edu.details" required></td>
+                            <td><label for="edu.details">Starting Year: </label></td>
+                            <td><input type="text" name="sYear" id="edu.details" required></td>
+                            <td><label for="edu.details">Passed out:    </label></td>
+                            <td><input type="month" name="PYear" id="edu.details" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="edu.details">Course Type:   </label><br>
+                            <input type="radio" name="CourseType" id="edu.details">
+                            <label for="ft">Full Time</label><br>
+                            <input type="radio" name="CourseType" id="edu.details">
+                            <label for="pt">Part Time</label><br>
+                            <input type="radio" name="CourseType" id="edu.details">
+                            <label for="correspondence">Correspondence</label></td>
+                        </tr>
+                    </tr>
+                </table>
+                    <hr>
+                <table class="Table">
+                    <tr>
+                        <label for="Interedu.details"><strong>Intermediate/Polytechnic Education</strong></label>
+                        <tr>
+                            <td><label for="Interedu.details">Name of the College:  </label></td>
+                            <td><input type="text" name="clgName" id="Interedu.details" required></td>
+                            <td><label for="Interedu.details">Course Name:  </label></td>
+                            <td><input type="text" name="courseName" id="Interedu.details" required></td>
+                            <td><label for="Interedu.details">Specialization:   </label></td>
+                            <td><input type="text" name="Spec" id="Interedu.details" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Interedu.details">Grading System / Percentage:  </label></td>
+                            <td><input type="number" name="CGPA" id="Interedu.details" required></td>
+                            <td><label for="Interedu.details">Starting Year:    </label></td>
+                            <td><input type="text" name="SYear" id="Interedu.details" required></td>
+                            <td><label for="Interedu.details">Passed out:   </label></td>
+                            <td><input type="month" name="PYear" id="Interedu.details" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="edu.details">Course Type:   </label><br>
+                            <input type="radio" name="CourseType" id="edu.details">
+                            <label for="ft">Full Time</label><br>
+                            <input type="radio" name="CourseType" id="edu.details">
+                            <label for="pt">Part Time</label><br>
+                            <input type="radio" name="CourseType" id="edu.details">
+                            <label for="correspondence">Correspondence</label></td>
+                        </tr>
+                    </tr>
+                </table>    
+                    <hr>
+                <table class="Table">
+                    <tr>
+                        <label for="Secedu.details"><strong>Secondary Education</strong></label>
+                        <tr>
+                            <td><label for="Secedu.details">Name of the School: </label></td>
+                            <td><input type="text" name="SchoolName" id="Secedu.details" required></td>
+                            <td><label for="Secedu.details">Course Name:    </label></td>
+                            <td><input type="text" name="courseName" id="Secedu.details" required></td>
+                            <td><label for="Secedu.details">Board of Education: </label></td>
+                            <td><input type="text" name="BofEdu" id="Secedu.details" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Secedu.details">Grading System / Percentage:    </label></td>
+                            <td><input type="number" name="CGPA" id="Secedu.details" required></td>
+                            <td><label for="Secedu.details">Starting Year:  </label></td>
+                            <td><input type="text" name="SYear" id="Secedu.details" required></td>
+                            <td><label for="Secedu.details">Passed out: </label></td>
+                            <td><input type="month" name="PYear" id="Secedu.details" required></td> 
+                        </tr>
+                        <tr>
+                            <td><label for="edu.details">Course Type:   </label><br>
+                            <input type="radio" name="CourseType" id="edu.details">
+                            <label for="ft">Full Time</label><br>
+                            <input type="radio" name="CourseType" id="edu.details">
+                            <label for="pt">Part Time</label><br>
+                            <input type="radio" name="CourseType" id="edu.details">
+                            <label for="correspondence">Correspondence</label></td>
+                        </tr>
+                    </tr>
+                </table>
+                <button class="btn" type="button" onclick="saved()">Save Details</button>
+            </fieldset><br>
+    
+            <fieldset>
+                <legend>Career Preferences</legend>
+                <table class="cPref">
+                    <tr>
+                        <td><label for="Skills">Skills: </label></td>
+                        <td><input type="text" name="Skills" id="Skills"  required></td>
+                        <td><label for="JobType">Job Type:  </label></td>
+                        <td><input type="text" name="JobType" id="JobType"  required></td>
+                        <td><label for="location">Preferred Location:   </label></td>
+                        <td><input type="text" name="location" id="location"  required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="languages">Languages:   </label></td>
+                        <td><input type="text" name="languages" id="languages"  required></td>
+                    </tr>
+                </table>
+            </fieldset><br>
+    
+            <fieldset>
+                <legend>Internships & Projects</legend>
+                <table class="Table">
+                    <tr><label for="Internship"><strong>Internship</strong></label></tr>
+                    <tr>
+                        <td><label for="CompanyName">Company Name:  </label></td>
+                        <td><input type="text" name="CompanyName" id="CompanyName" required></td>
+                        <td><label for="Duration">Duration: </label></td>
+                        <td><input type="number" name="Duration" id="Duration" required></td>
+                        <td><label for="ProjectName">Project Name:  </label></td>
+                        <td><input type="text" name="ProjectName" id="ProjectName" required><br></td><br>
+                    </tr>
+                    <tr>
+                        <td><label for="ProjectDescribe">Description:   </label></td>
+                        <td><textarea name="ProjectDescribe" id="ProjectDescribe" required></textarea></td>
+                        <td><label for="keySkills">Key Skills:  </label></td>
+                        <td><input type="text" name="keySkills" id="keySkills"><br></td>
+                    </tr>
+                </table>
+                <hr>
+                <table class="Table">
+                    <tr>
+                        <tr><label for="Project"><strong>Project</strong></label></tr>
+                        <td><label for="ProjectName">Project Name:  </label></td>
+                        <td><input type="text" name="ProjectName" id="ProjectName" required></td>
+                        <td><label for="Duration">Duration: </label></td>
+                        <td><input type="number" name="Duration" id="Duration" required></td>
+                        <td><label for="ProjectDescribe">Description:   </label></td>
+                        <td><textarea name="ProjectDescribe" id="ProjectDescribe" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="keySkills">Key Skills:  </label></td>
+                        <td><input type="text" name="keySkills" id="keySkills"></td>
+                    </tr>
+                </table>
+            </fieldset><br>
+            <button class="btn" type="button" onclick="saved()">Save Details</button>
+            <button class="btn" type="submit" onclick="submit()">Submit</button>
+        </form>
+    
+</body>
+</html>

@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(login-bg-image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Sedan", serif;
+}
+
+a {
+   text-decoration: none;
+   color: black; 
+   transition: all 0.2s ease-in;
+}
+
+#web-name{
+    font-size: 90px;
+    color: #F71482;
+    position: relative;
+    font-family: "Sedan", serif;
+}
+
+.container {
+    color: white;
+    padding: 2rem;
+    margin: 10vh;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 1.5rem;
+}
+
+.container p {
+    margin: 1rem 0;
+    position: relative;
+}
+
+.container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+.container i {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    color: white;
+}
+
+h1{
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#p3 {
+    font-family: "Sedan", serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color: #A1A3DF;
+    color: black;
+    border: none;
+    transition: all 0.3s ease-in;
+}
+
+#p3:hover {
+    color: #FFC3E0;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#p4 {
+    font-family: "Sedan", serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color: #A1A3DF;
+    color: black;
+    border: none;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+}
+
+#p4:hover {
+    color: #FFC3E0;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#forget {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+#forget a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#forget a:hover {
+    text-decoration: underline;
+    color: #FFC3E0;
+}
+
+.Create {
+    background-color: #A1A3DF;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.Create:hover {
+    color: #FFC3E0;
+    background-color: black;
+    border: 1px solid white;
+}
+

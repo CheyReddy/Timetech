@@ -1,0 +1,44 @@
+body{
+    padding: 11% 30% 7%;
+    background-color: rgb(126, 125, 119);
+}
+.all-btn{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    color: rgb(219, 62, 93);
+    text-align: center;
+}
+form{
+    position: relative;
+    left: 120px;
+}
+input,label{
+    margin: 8px;
+}
+label{
+    font-size: 17px;
+    font-weight: 500;
+}
+.Profile{
+    background-color: rgb(236, 234, 226);
+    padding: 20px;
+    border: 2px solid black;
+}
+.buttons{
+    position: relative;
+    left: 160px;
+}
+.Profile:hover{
+    border: 5px solid firebrick;
+}
+input:hover,textarea:hover,.all-btn:hover{
+    border: 3px solid red;
+}
+.all-btn:hover{
+    background-color: rgb(241, 96, 96);
+}
